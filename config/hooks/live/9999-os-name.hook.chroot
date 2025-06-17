@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Updating : /etc/os-release..."
+
+cat <<EOF > /etc/os-release
+PRETTY_NAME="DevOS 0.1"
+NAME="DevOS"
+VERSION_ID="0.1"
+VERSION="0.1 (Dev Edition)"
+ID=devos
+HOME_URL="https://github.com/DorianFGR/devOS"
+SUPPORT_URL="https://github.com/DorianFGR/devOS/issues"
+BUG_REPORT_URL="https://github.com/DorianFGR/devOS/issues"
+EOF
+
+cat <<EOF > /etc/lsb-release
+DISTRIB_ID=DevOS
+DISTRIB_RELEASE=0.1
+DISTRIB_CODENAME=dev
+DISTRIB_DESCRIPTION="DevOS 0.1 (Dev Edition)"
+EOF
