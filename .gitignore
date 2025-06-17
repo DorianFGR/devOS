@@ -4,3 +4,4 @@ cache/
 binary/
 live-image-*.iso
 *.deb
+chroot/
