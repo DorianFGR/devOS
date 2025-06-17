@@ -9,6 +9,7 @@ apparmor	4.1.0-1
 appstream	1.0.5-1
 apt	3.0.2
 apt-config-icons	1.0.5-1
+apt-transport-https	3.0.2
 apt-utils	3.0.2
 aspell	0.60.8.1-4
 aspell-en	2020.12.07-0-1
@@ -19,6 +20,7 @@ baobab	48.0-2+b1
 base-files	13.8
 base-passwd	3.6.7
 bash	5.2.37-2+b2
+bash-completion	1:2.16.0-7
 bc	1.07.1-4
 bluez	5.82-1.1
 bluez-obexd	5.82-1.1
@@ -52,6 +54,7 @@ cups-ipp-utils	2.4.10-3
 cups-pk-helper	0.2.6-2.1
 cups-ppdc	2.4.10-3
 cups-server-common	2.4.10-3
+curl	8.14.1-1
 dash	0.5.12-12
 dbus	1.16.2-2
 dbus-bin	1.16.2-2
@@ -94,6 +97,7 @@ fdisk	2.41-5
 file	1:5.46-5
 findutils	4.10.0-3
 firefox-esr	128.11.0esr-1
+flatpak	1.16.1-1
 folks-common	0.15.9-5
 fontconfig	2.15.0-2.3
 fontconfig-config	2.15.0-2.3
@@ -169,6 +173,8 @@ gir1.2-upowerglib-1.0:amd64	1.90.9-1
 gir1.2-webkit2-4.1:amd64	2.48.3-1
 gir1.2-wnck-3.0:amd64	43.2-1
 gir1.2-xdp-1.0:amd64	0.9.1-1
+git	1:2.47.2-0.1
+git-man	1:2.47.2-0.1
 gjs	1.82.3-1
 glib-networking:amd64	2.80.1-1
 glib-networking-common	2.80.1-1
@@ -209,6 +215,7 @@ gnome-snapshot	48.0.1-1
 gnome-software	48.2-1
 gnome-software-common	48.2-1
 gnome-software-plugin-deb	48.2-1
+gnome-software-plugin-flatpak	48.2-1
 gnome-software-plugin-fwupd	48.2-1
 gnome-sushi	46.0-2
 gnome-system-monitor	48.1-2
@@ -457,6 +464,7 @@ libelf1t64:amd64	0.192-4
 libenchant-2-2:amd64	2.8.2+dfsg1-3
 libencode-locale-perl	1.05-3
 libepoxy0:amd64	1.5.10-2
+liberror-perl	0.17030-1
 libespeak-ng1:amd64	1.52.0+dfsg-5
 libestr0:amd64	0.1.11-2
 libevdev2:amd64	1.13.4+dfsg-1
@@ -478,6 +486,7 @@ libffi7:amd64	3.3-6
 libffi8:amd64	3.4.8-2
 libfftw3-double3:amd64	3.3.10-2+b1
 libfftw3-single3:amd64	3.3.10-2+b1
+libfido2-1:amd64	1.15.0-1+b1
 libfile-basedir-perl	0.09-2
 libfile-desktopentry-perl	0.22-3
 libfile-listing-perl	6.16-1
@@ -1209,6 +1218,7 @@ nftables	1.1.2-1
 nm-connection-editor	1.36.0-3+b1
 ntfs-3g	1:2022.10.3-5
 ocl-icd-libopencl1:amd64	2.3.3-1
+openssh-client	1:10.0p1-5
 openssl	3.5.0-2
 openssl-provider-legacy	3.5.0-2
 orca	48.1-1
@@ -1217,8 +1227,10 @@ p11-kit	0.25.5-3
 p11-kit-modules:amd64	0.25.5-3
 packagekit	1.3.1-1
 packagekit-tools	1.3.1-1
+packages-microsoft-prod	1.1-debian12
 parted	3.6-5
 passwd	1:4.17.4-2
+patch	2.8-1
 pci.ids	0.0~2025.03.09-1
 perl	5.40.1-3
 perl-base	5.40.1-3
@@ -1326,10 +1338,13 @@ util-linux	2.41-5
 uuid-runtime	2.41-5
 va-driver-all:amd64	2.22.0-3
 vdpau-driver-all:amd64	1.5-3+b1
+vim	2:9.1.1230-2
 vim-common	2:9.1.1230-2
+vim-runtime	2:9.1.1230-2
 vim-tiny	2:9.1.1230-2
 wamerican	2020.12.07-4
 webp-pixbuf-loader:amd64	0.2.7-1+b1
+wget	1.25.0-2
 whiptail	0.52.25-1
 wireless-regdb	2025.02.20-1
 wireplumber	0.5.8-2

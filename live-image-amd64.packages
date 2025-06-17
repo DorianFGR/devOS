@@ -9,9 +9,12 @@ apparmor	4.1.0-1
 appstream	1.0.5-1
 apt	3.0.2
 apt-config-icons	1.0.5-1
+apt-transport-https	3.0.2
 apt-utils	3.0.2
 aspell	0.60.8.1-4
 aspell-en	2020.12.07-0-1
+aspnetcore-runtime-8.0	8.0.17-1
+aspnetcore-targeting-pack-8.0	8.0.17-1
 at-spi2-common	2.56.2-1
 at-spi2-core	2.56.2-1
 avahi-daemon	0.8-16
@@ -19,6 +22,7 @@ baobab	48.0-2+b1
 base-files	13.8
 base-passwd	3.6.7
 bash	5.2.37-2+b2
+bash-completion	1:2.16.0-7
 bc	1.07.1-4
 bluez	5.82-1.1
 bluez-obexd	5.82-1.1
@@ -29,6 +33,8 @@ bubblewrap	0.11.0-2
 busybox	1:1.37.0-6
 bzip2	1.0.8-6
 ca-certificates	20250419
+ca-certificates-java	20240118
+code	1.101.0-1749655245
 colord	1.4.7-3
 colord-data	1.4.7-3
 coreutils	9.7-3
@@ -52,6 +58,7 @@ cups-ipp-utils	2.4.10-3
 cups-pk-helper	0.2.6-2.1
 cups-ppdc	2.4.10-3
 cups-server-common	2.4.10-3
+curl	8.14.1-1
 dash	0.5.12-12
 dbus	1.16.2-2
 dbus-bin	1.16.2-2
@@ -77,6 +84,13 @@ dns-root-data	2024071801
 dnsmasq-base	2.91-1
 docbook-xml	4.5-13
 dosfstools	4.2-1.2
+dotnet-apphost-pack-8.0	8.0.17-1
+dotnet-host	9.0.6-1
+dotnet-hostfxr-8.0	8.0.17-1
+dotnet-runtime-8.0	8.0.17-1
+dotnet-runtime-deps-8.0	8.0.17-1
+dotnet-sdk-8.0	8.0.411-1
+dotnet-targeting-pack-8.0	8.0.17-1
 dpkg	1.22.20
 dracut-install	106-6
 e2fsprogs	1.47.2-1+b1
@@ -94,6 +108,7 @@ fdisk	2.41-5
 file	1:5.46-5
 findutils	4.10.0-3
 firefox-esr	128.11.0esr-1
+flatpak	1.16.1-1
 folks-common	0.15.9-5
 fontconfig	2.15.0-2.3
 fontconfig-config	2.15.0-2.3
@@ -169,6 +184,8 @@ gir1.2-upowerglib-1.0:amd64	1.90.9-1
 gir1.2-webkit2-4.1:amd64	2.48.3-1
 gir1.2-wnck-3.0:amd64	43.2-1
 gir1.2-xdp-1.0:amd64	0.9.1-1
+git	1:2.47.2-0.1
+git-man	1:2.47.2-0.1
 gjs	1.82.3-1
 glib-networking:amd64	2.80.1-1
 glib-networking-common	2.80.1-1
@@ -209,6 +226,7 @@ gnome-snapshot	48.0.1-1
 gnome-software	48.2-1
 gnome-software-common	48.2-1
 gnome-software-plugin-deb	48.2-1
+gnome-software-plugin-flatpak	48.2-1
 gnome-software-plugin-fwupd	48.2-1
 gnome-sushi	46.0-2
 gnome-system-monitor	48.1-2
@@ -280,6 +298,7 @@ iputils-ping	3:20240905-3
 isc-dhcp-client	4.4.3-P1-7
 isc-dhcp-common	4.4.3-P1-7
 iso-codes	4.18.0-1
+java-common	0.76
 jq	1.7.1-6
 keyboard-configuration	1.237
 klibc-utils	2.0.14-1
@@ -315,6 +334,8 @@ libasyncns0:amd64	0.8-6+b5
 libatasmart4:amd64	0.19-5+b2
 libatk-adaptor:amd64	2.56.2-1
 libatk-bridge2.0-0t64:amd64	2.56.2-1
+libatk-wrapper-java	0.40.0-3
+libatk-wrapper-java-jni:amd64	0.40.0-3+b3
 libatk1.0-0t64:amd64	2.56.2-1
 libatomic1:amd64	14.2.0-19
 libatspi2.0-0t64:amd64	2.56.2-1
@@ -359,8 +380,10 @@ libbytesize-common	2.11-2
 libbytesize1:amd64	2.11-2
 libbz2-1.0:amd64	1.0.8-6
 libc-bin	2.41-8
+libc-dev-bin	2.41-8
 libc-l10n	2.41-8
 libc6:amd64	2.41-8
+libc6-dev:amd64	2.41-8
 libcaca0:amd64	0.99.beta20-5
 libcairo-gobject-perl	1.005-4+b4
 libcairo-gobject2:amd64	1.18.4-1+b1
@@ -395,6 +418,7 @@ libcom-err2:amd64	1.47.2-1+b1
 libconfig++11:amd64	1.7.3-2
 libcpuinfo0:amd64	0.0~git20250327.39ea79a-1
 libcrack2:amd64	2.9.6-5.2+b1
+libcrypt-dev:amd64	1:4.4.38-1
 libcrypt1:amd64	1:4.4.38-1
 libcryptsetup12:amd64	2:2.7.5-2
 libcue2:amd64	2.2.1-4.1+b2
@@ -457,6 +481,7 @@ libelf1t64:amd64	0.192-4
 libenchant-2-2:amd64	2.8.2+dfsg1-3
 libencode-locale-perl	1.05-3
 libepoxy0:amd64	1.5.10-2
+liberror-perl	0.17030-1
 libespeak-ng1:amd64	1.52.0+dfsg-5
 libestr0:amd64	0.1.11-2
 libevdev2:amd64	1.13.4+dfsg-1
@@ -478,6 +503,7 @@ libffi7:amd64	3.3-6
 libffi8:amd64	3.4.8-2
 libfftw3-double3:amd64	3.3.10-2+b1
 libfftw3-single3:amd64	3.3.10-2+b1
+libfido2-1:amd64	1.15.0-1+b1
 libfile-basedir-perl	0.09-2
 libfile-desktopentry-perl	0.22-3
 libfile-listing-perl	6.16-1
@@ -635,6 +661,7 @@ libhwy1t64:amd64	1.2.0-2+b2
 libhyphen0:amd64	2.8.8-7+b2
 libibus-1.0-5:amd64	1.5.32-1
 libical3t64:amd64	3.0.20-1+b1
+libice-dev:amd64	2:1.1.1-1
 libice6:amd64	2:1.1.1-1
 libicu76:amd64	76.1-4
 libidn12:amd64	1.43-1
@@ -933,6 +960,7 @@ libsidplay1v5:amd64	1.36.60-1+b2
 libsigc++-2.0-0v5:amd64	2.12.1-3
 libsigc++-3.0-0:amd64	3.6.0-2+b1
 libslang2:amd64	2.3.3-5+b2
+libsm-dev:amd64	2:1.2.6-1
 libsm6:amd64	2:1.2.6-1
 libsmartcols1:amd64	2.41-5
 libsmbclient0:amd64	2:4.22.2+dfsg-1
@@ -1077,11 +1105,13 @@ libwww-perl	6.78-1
 libwww-robotrules-perl	6.02-1
 libx11-6:amd64	2:1.8.12-1
 libx11-data	2:1.8.12-1
+libx11-dev:amd64	2:1.8.12-1
 libx11-protocol-perl	0.56-9
 libx11-xcb1:amd64	2:1.8.12-1
 libx264-164:amd64	2:0.164.3108+git31e19f9-2+b1
 libx265-215:amd64	4.1-2
 libxatracker2:amd64	25.0.5-2
+libxau-dev:amd64	1:1.0.11-1
 libxau6:amd64	1:1.0.11-1
 libxaw7:amd64	2:1.0.16-1
 libxcb-dri2-0:amd64	1.17.0-2+b1
@@ -1103,10 +1133,12 @@ libxcb-xfixes0:amd64	1.17.0-2+b1
 libxcb-xkb1:amd64	1.17.0-2+b1
 libxcb-xv0:amd64	1.17.0-2+b1
 libxcb1:amd64	1.17.0-2+b1
+libxcb1-dev:amd64	1.17.0-2+b1
 libxcomposite1:amd64	1:0.4.6-1
 libxcursor1:amd64	1:1.2.3-1
 libxcvt0:amd64	0.1.3-1
 libxdamage1:amd64	1:1.1.6-1+b2
+libxdmcp-dev:amd64	1:1.1.5-1
 libxdmcp6:amd64	1:1.1.5-1
 libxext6:amd64	2:1.3.4-1+b3
 libxfixes3:amd64	1:6.0.0-2+b4
@@ -1134,6 +1166,7 @@ libxres1:amd64	2:1.2.1-1+b2
 libxshmfence1:amd64	1.3.3-1
 libxslt1.1:amd64	1.1.35-1.2
 libxss1:amd64	1:1.2.3-1+b3
+libxt-dev:amd64	1:1.2.1-1.2+b2
 libxt6t64:amd64	1:1.2.1-1.2+b2
 libxtables12:amd64	1.8.11-2
 libxtst6:amd64	2:1.2.5-1
@@ -1159,6 +1192,7 @@ libzxing3:amd64	2.3.0-4
 linux-base	4.12
 linux-image-6.12.31-amd64	6.12.31-1
 linux-image-amd64	6.12.31-1
+linux-libc-dev	6.12.31-1
 linux-sysctl-defaults	4.12
 live-boot	1:20250225
 live-boot-doc	1:20250225
@@ -1185,6 +1219,8 @@ mailcap	3.74
 malcontent	0.13.0-2
 malcontent-gui	0.13.0-2
 man-db	2.13.1-1
+manpages	6.9.1-1
+manpages-dev	6.9.1-1
 mawk	1.3.4.20250131-1
 media-types	13.0.0
 mesa-libgallium:amd64	25.0.5-2
@@ -1203,12 +1239,19 @@ nautilus-extension-gnome-terminal:amd64	3.56.1-1
 ncurses-base	6.5+20250216-2
 ncurses-bin	6.5+20250216-2
 netbase	6.5
+netstandard-targeting-pack-2.1	2.1.0-1
 network-manager	1.52.0-6
 network-manager-l10n	1.52.0-6
 nftables	1.1.2-1
 nm-connection-editor	1.36.0-3+b1
+nodejs	20.19.2-1nodesource1
 ntfs-3g	1:2022.10.3-5
 ocl-icd-libopencl1:amd64	2.3.3-1
+openjdk-21-jdk:amd64	21.0.7+6-1
+openjdk-21-jdk-headless:amd64	21.0.7+6-1
+openjdk-21-jre:amd64	21.0.7+6-1
+openjdk-21-jre-headless:amd64	21.0.7+6-1
+openssh-client	1:10.0p1-5
 openssl	3.5.0-2
 openssl-provider-legacy	3.5.0-2
 orca	48.1-1
@@ -1217,8 +1260,10 @@ p11-kit	0.25.5-3
 p11-kit-modules:amd64	0.25.5-3
 packagekit	1.3.1-1
 packagekit-tools	1.3.1-1
+packages-microsoft-prod	1.1-debian12
 parted	3.6-5
 passwd	1:4.17.4-2
+patch	2.8-1
 pci.ids	0.0~2025.03.09-1
 perl	5.40.1-3
 perl-base	5.40.1-3
@@ -1268,6 +1313,7 @@ python3.13	3.13.3-2
 python3.13-minimal	3.13.3-2
 readline-common	8.2-6
 realmd	0.17.1-3+b2
+rpcsvc-proto	1.4.3-1
 rsync	3.4.1+ds1-3
 rsyslog	8.2504.0-1
 rtkit	0.13-5.1
@@ -1302,6 +1348,7 @@ tar	1.35+dfsg-3.1
 tasksel	3.80
 tasksel-data	3.80
 tecla	48.0.2-1
+terraform	1.12.2-1
 timgm6mb-soundfont	1.3-5
 tinysparql	3.8.2-7
 totem	43.1-6
@@ -1323,13 +1370,17 @@ usbmuxd	1.1.1-6
 user-session-migration	0.4.3+nmu1
 user-setup	1.105
 util-linux	2.41-5
+uuid-dev:amd64	2.41-5
 uuid-runtime	2.41-5
 va-driver-all:amd64	2.22.0-3
 vdpau-driver-all:amd64	1.5-3+b1
+vim	2:9.1.1230-2
 vim-common	2:9.1.1230-2
+vim-runtime	2:9.1.1230-2
 vim-tiny	2:9.1.1230-2
 wamerican	2020.12.07-4
 webp-pixbuf-loader:amd64	0.2.7-1+b1
+wget	1.25.0-2
 whiptail	0.52.25-1
 wireless-regdb	2025.02.20-1
 wireplumber	0.5.8-2
@@ -1338,6 +1389,7 @@ x11-common	1:7.7+24
 x11-utils	7.7+7
 x11-xkb-utils	7.7+9
 x11-xserver-utils	7.7+11
+x11proto-dev	2024.1-1
 xauth	1:1.1.2-1.1
 xbrlapi	6.7-3.1
 xcvt	0.1.3-1
@@ -1354,6 +1406,7 @@ xfonts-utils	1:7.7+7
 xkb-data	2.42-1
 xkbset	0.8-1
 xml-core	0.19
+xorg-sgml-doctools	1:1.11-1.1
 xserver-common	2:21.1.16-1.1
 xserver-xephyr	2:21.1.16-1.1
 xserver-xorg	1:7.7+24
@@ -1372,9 +1425,11 @@ xserver-xorg-video-qxl	0.1.6-1.1
 xserver-xorg-video-radeon	1:22.0.0-1
 xserver-xorg-video-vesa	1:2.6.0-2
 xserver-xorg-video-vmware	1:13.4.0-1
+xtrans-dev	1.4.0-1
 xwayland	2:24.1.6-1
 xxd	2:9.1.1230-2
 xz-utils	5.8.1-1
+yarn	1.22.22-1
 yelp	42.2-4
 yelp-xsl	42.1-4
 zenity	4.1.90-1

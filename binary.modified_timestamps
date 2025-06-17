@@ -381,6 +381,7 @@ l binary/debian
 d binary/live
 f binary/live/filesystem.packages
 f binary/live/filesystem.squashfs
+f binary/live/filesystem.packages-remove
 f binary/live/initrd.img-6.12.31-amd64
 d binary/dists
 d binary/dists/trixie
