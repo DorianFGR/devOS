@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for u in debian user live; do
+    deluser --remove-home --quiet --force-badname "$u" 2>/dev/null || true
+done
+
+useradd -m -s /bin/bash -c "DevOS User" devos
+echo "devos:devos" | chpasswd
+
+usermod -aG sudo,adm,audio,video,netdev,plugdev devos

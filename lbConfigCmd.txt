@@ -1,2 +1,2 @@
-lb config --debian-installer live --distribution trixie  --archive-areas "main contrib non-free non-free-firmware" --bootappend-live "boot=live components" --iso-volume "DevOS" --iso-publisher "DorianFigueiras" --iso-application "DevOS pour développeurs" --debian-installer-gui true --bootappend-live "boot=live components hostname=devos"
+lb config --debian-installer live --distribution trixie  --archive-areas "main contrib non-free non-free-firmware" --bootappend-live "boot=live components username=devos" --iso-volume "DevOS" --iso-publisher "DorianFigueiras" --iso-application "DevOS pour développeurs" --debian-installer-gui true --bootappend-live "boot=live components hostname=devos"
 

@@ -590,7 +590,6 @@
 /install/vmlinuz
 /live
 /live/filesystem.packages
-/live/filesystem.packages-remove
 /live/filesystem.squashfs
 /live/initrd.img-6.12.32-amd64
 /live/vmlinuz-6.12.32-amd64
