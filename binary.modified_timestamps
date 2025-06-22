@@ -293,6 +293,8 @@ f binary/.disk/base_components
 f binary/.disk/base_installable
 f binary/.disk/udeb_include
 f binary/.disk/info
+d binary/firmware
+l binary/firmware/firmware-linux_20250410-2_all.deb
 d binary/EFI
 d binary/EFI/boot
 f binary/md5sum.txt
@@ -321,7 +323,10 @@ d binary/pool/main/k
 d binary/pool/main/k/klibc
 d binary/pool/main/k/keyutils
 d binary/pool/main/k/kbd
+d binary/pool/main/libf
+d binary/pool/main/libf/libffi
 d binary/pool/main/d
+d binary/pool/main/d/dbus
 d binary/pool/main/d/dbus-python
 d binary/pool/main/d/dracut
 d binary/pool/main/x
@@ -341,6 +346,7 @@ d binary/pool/main/b
 d binary/pool/main/b/brotli
 d binary/pool/main/b/busybox
 d binary/pool/main/j
+d binary/pool/main/j/json-c
 d binary/pool/main/j/jfsutils
 d binary/pool/main/l
 d binary/pool/main/l/linux-signed-amd64
@@ -357,9 +363,11 @@ d binary/pool/main/u
 d binary/pool/main/u/ucf
 d binary/pool/main/f
 d binary/pool/main/f/fuse3
+d binary/pool/main/f/firmware-free
 d binary/pool/main/f/freetype
 d binary/pool/main/e
 d binary/pool/main/e/efivar
+d binary/pool/main/e/expat
 d binary/pool/main/e/efibootmgr
 d binary/pool/main/c
 d binary/pool/main/c/console-setup
@@ -374,6 +382,8 @@ d binary/pool/main/p/python3-defaults
 d binary/pool/non-free
 d binary/pool/contrib
 d binary/pool/non-free-firmware
+d binary/pool/non-free-firmware/f
+d binary/pool/non-free-firmware/f/firmware-nonfree
 f binary/sha256sum.README
 f binary/sha256sum.txt
 f binary/efi.img
@@ -381,8 +391,8 @@ l binary/debian
 d binary/live
 f binary/live/filesystem.packages
 f binary/live/filesystem.squashfs
+f binary/live/initrd.img-6.12.32-amd64
 f binary/live/filesystem.packages-remove
-f binary/live/initrd.img-6.12.31-amd64
 d binary/dists
 d binary/dists/trixie
 d binary/dists/trixie/main
