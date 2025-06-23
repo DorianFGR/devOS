@@ -1,0 +1,6 @@
+[org/gnome/shell]
+enabled-extensions=['blur-my-shell@aunetx']
+
+[org/gnome/shell/extensions/blur-my-shell]
+sigma=30
+brightness=0.9

@@ -590,6 +590,7 @@
 /install/vmlinuz
 /live
 /live/filesystem.packages
+/live/filesystem.packages-remove
 /live/filesystem.squashfs
 /live/initrd.img-6.12.32-amd64
 /live/vmlinuz-6.12.32-amd64
@@ -1308,7 +1309,7 @@
 /pool/main/g/gettext
 /pool/main/g/gettext/gettext-base_0.23.1-2_amd64.deb
 /pool/main/g/glib2.0
-/pool/main/g/glib2.0/libglib2.0-0t64_2.84.2-1_amd64.deb
+/pool/main/g/glib2.0/libglib2.0-0t64_2.84.3-1_amd64.deb
 /pool/main/g/grub-efi-amd64-signed
 /pool/main/g/grub-efi-amd64-signed/grub-efi-amd64-signed_1+2.12+8_amd64.deb
 /pool/main/g/grub2

@@ -1,9 +1,11 @@
 gnome-core
 gnome-tweaks
 gnome-software-plugin-flatpak
+gnome-shell-extensions
+gnome-shell-extension-blur-my-shell
 
 git
 vim
 curl
 wget
-
+dconf-cli
