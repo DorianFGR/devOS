@@ -4,6 +4,7 @@ gnome-software-plugin-flatpak
 gnome-shell-extensions
 gnome-shell-extension-blur-my-shell
 gnome-shell-extension-dash-to-dock
+gnome-shell-extension-just-perfection
 
 git
 vim
