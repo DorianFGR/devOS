@@ -1,5 +1,6 @@
 # DevOS
 
+![devOS](/media/devOS-green.png)
 DevOS is a Debian-based Linux distribution focused on development use cases.
 
 ## Overview
@@ -26,7 +27,7 @@ lb config --debian-installer live \
   --bootappend-live "boot=live components username=devos" \
   --iso-volume "DevOS" \
   --iso-publisher "DorianFigueiras" \
-  --iso-application "DevOS pour développeurs" \
+  --iso-application "DevOS" \
   --debian-installer-gui true \
   --bootappend-live "boot=live components hostname=devos"
 
