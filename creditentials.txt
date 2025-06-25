@@ -1,2 +1,0 @@
-id = devos
-psw = devos
