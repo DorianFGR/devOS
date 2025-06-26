@@ -1,7 +1,3 @@
 *.iso
-*.squashfs
-cache/
-binary/
-live-image-*.iso
-*.deb
-chroot/
+.vscode/
+archlive/out/
