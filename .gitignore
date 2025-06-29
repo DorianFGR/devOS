@@ -1,3 +1,5 @@
 *.iso
 .vscode/
 archlive/out/
+devOS/work
+devOS/out
